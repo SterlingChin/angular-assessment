@@ -22,5 +22,5 @@ angular.module('assessment', ['ui.router'])
                 templateUrl: './vews/product-details.html'
             });
         $urlRouterProvider
-            .otherwise('./view/home.html');
+            .otherwise('./views/home.html');
     });

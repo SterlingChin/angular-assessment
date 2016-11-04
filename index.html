@@ -5,7 +5,7 @@
     <title>Front End Assessment</title>
     <link rel="stylesheet" href="./styles/app.css">
 </head>
-<body ng-controller='mainCtrl'>
+<body ng-controller='mainCtrl as main'>
 <!--This div wraps the entire page-->
     <div class="site-wrapper">
         <!--Here is your header with the navigation nested inside done-->
@@ -25,6 +25,7 @@
                         <li>
                             <a ui-sref='about'>About</a>
                         </li>
+
                     </ul>
 
                 </nav>
@@ -37,6 +38,7 @@
         </header>
         <!--This is the main wrapper -->
         <main class="site-main" role="main" >
+          <a ui-sref='home'></a>
 <div ui-view></div>
 
 

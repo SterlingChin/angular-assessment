@@ -1,3 +1,7 @@
 angular.module('assessment').controller('mainCtrl', function($scope, $stateParams, mainSrv){
-// if($stateParams === )
+// mainSrv.getProducts().then(function(response){
+//   $scope.products = products;
+//   console.log($scope.products);
+// });
+$scope.getProducts = mainSrv.getProducts;
 });
